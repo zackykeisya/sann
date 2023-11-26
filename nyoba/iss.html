@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="style.css">
+
+        <title>Responsive menu dropdown</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="header__logo">Clay</a>
+
+            <i class='bx bx-menu header__toggle' id="header-toggle"></i>
+
+            <nav class="nav" id="nav-menu">
+                <div class="nav__content bd-grid">
+                    <a href="" class="nav__perfil">
+                        <div class="nav__img">
+                            <img src="assets/img/perfil.jpg" alt="">
+                        </div>
+                        
+                        <div>
+                            <span class="nav__name">Clay</span>
+                            <span class="nav__name">Mitchell</span>
+                        </div>
+                    </a>
+    
+                    <div class="nav__menu">
+                        <ul class="nav__list">
+                            <li class="nav_item"><a href="#" class="nav_link active">Home</a></li>
+    
+                            <li class="nav__item dropdown">
+                                <a href="#" class="nav_link dropdownlink">About <i class='bx bx-chevron-down dropdown_icon'></i></a>
+                                    
+    
+                                <ul class="dropdown__menu">
+                                    <li class="dropdown_item"><a href="#" class="nav_link">About me</a></li>
+                                    <li class="dropdown_item"><a href="#" class="nav_link">Location</a></li>
+                                    <li class="dropdown_item"><a href="#" class="nav_link">Studies</a></li>
+                                </ul>
+                            </li>
+    
+                            <li class="nav_item"><a href="#" class="nav_link">Skills</a></li>
+
+                            <li class="nav__item dropdown">
+                                <a href="#" class="nav_link dropdownlink">Works <i class='bx bx-chevron-down dropdown_icon'></i></a>
+                                    
+    
+                                <ul class="dropdown__menu">
+                                    <li class="dropdown_item"><a href="#" class="nav_link">Recent jobs</a></li>
+                                    <li class="dropdown_item"><a href="#" class="nav_link">Better jobs</a></li>
+                                    <li class="dropdown_item"><a href="#" class="nav_link">Work Awards</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--===== MAIN JS =====-->
+        <script>/*===== EXPANDER MENU  =====*/ 
+            const showMenu = (toggleId, navId)=>{
+                const toggle = document.getElementById(toggleId),
+                nav = document.getElementById(navId)
+              
+                if(toggle && nav){
+                  toggle.addEventListener('click', ()=>{
+                    nav.classList.toggle('show')
+                    toggle.classList.toggle('bx-x')
+                  })
+                }
+              }
+              showMenu('header-toggle','nav-menu')
+            
+              /*===== ACTIVE AND REMOVE MENU =====*/
+            const navLink = document.querySelectorAll('.nav__link');   
+            
+            function linkAction(){
+              /Active link/
+              navLink.forEach(n => n.classList.remove('active'));
+              this.classList.add('active');
+            }
+            navLink.forEach(n => n.addEventListener('click', linkAction));</script>
+    </body>
+</html>
