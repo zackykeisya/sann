@@ -337,6 +337,13 @@ video {
   padding-left: 16px;
 }
 
+@media screen and (max-width: 425px) {
+  .imgprofil {
+    height: 50px;
+    width: 25px;
+  }
+}
+
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
