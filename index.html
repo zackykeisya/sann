@@ -818,8 +818,24 @@ function closeFullImageModal() {
     modal.classList.remove('active');
 }
 
+
+
 // Tutup modal jika klik di luar gambar
 document.getElementById('fullImageModal').addEventListener('mousedown', function(e) {
     if (e.target === this) closeFullImageModal();
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  function revealSections() {
+    document.querySelectorAll("section").forEach(function(section) {
+      const rect = section.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 80) {
+        section.classList.add("show");
+      }
+    });
+  }
+  revealSections();
+  window.addEventListener("scroll", revealSections);
 });
 </script>

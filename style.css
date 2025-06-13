@@ -1414,6 +1414,18 @@ video {
     background: rgba(255, 255, 255, 0.3);
 }
 
+/* Section hover effect */
+section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s cubic-bezier(.4,0,.2,1), transform 0.7s cubic-bezier(.4,0,.2,1);
+}
+
+section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .modal-container {
