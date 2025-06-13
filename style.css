@@ -13,6 +13,8 @@
 }
 
 
+
+
 html {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
@@ -28,6 +30,22 @@ body {
   margin: 0;
   line-height: inherit;
 }
+
+.tab-btn:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+  }
+
+  /* Efek hover untuk project cards */
+  .project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-color: #4f46e5; /* warna indigo-600 Tailwind */
+  }
 
 .toggle-button {
   display: flex;
@@ -1306,6 +1324,7 @@ video {
     max-height: 60vh;
     overflow-y: auto;
 }
+
 
 .project-gallery {
     display: grid;

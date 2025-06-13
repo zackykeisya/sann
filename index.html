@@ -18,61 +18,62 @@
   
 </head>
 <body class="font-poppins scroll-smooth">
-    <header class="bg-transparent absolute top-0 lef-0 w-full flex items-center z-10">
-        <div class="container">
-            <div class="flex items-center justify-between relative">
-                <div class="px-4">
-                    <a href="#home" class="font-bold text-lg text-black block py-6">Sann</a>
-                </div>
-                <div class="flex items-center px-4">
-                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
-                        <span class="hamburger-line transition duration-500 ease-in-out origin-top-left"></span>
-                        <span class="hamburger-line transition duration-500 ease-in-out"></span>
-                        <span class="hamburger-line transition duration-500 ease-in-out origin-bottom-left"></span>
-                    </button>
-                    <nav id="nav-menu" class="hidden absolute py-5 shadow-lg rounded max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
-                        <ul class="block lg:flex">
-                            <li class="group">
-                                <a href="#home" class="text-base text-dark py-2 mx-8 flex  hover:text-primary">Beranda</a>
-                            </li>
-                            <li class="group">
-                                <a href="#about" class="text-base text-dark py-2 mx-8 flex hover:text-primary">About Me</a>
-                            </li>
-                            <li class="group">
-                                <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex hover:text-primary">Portfolio</a>
-                            </li>
-                            <li class="group">
-                                <a href="#skills" class="text-base text-dark py-2 mx-8 flex hover:text-primary">Skills</a>
-                            </li>
-                        </ul>
-                    </nav>
+    <header class="bg-transparent w-full flex items-center z-50 transition-all duration-300">
+    <div class="container">
+        <div class="flex items-center justify-between relative">
+            <div class="px-4">
+                <a href="#home" class="font-bold text-lg text-black block py-3">Sann</a>
+            </div>
+            <div class="flex items-center px-4">
+                <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                    <span class="hamburger-line transition duration-500 ease-in-out origin-top-left"></span>
+                    <span class="hamburger-line transition duration-500 ease-in-out"></span>
+                    <span class="hamburger-line transition duration-500 ease-in-out origin-bottom-left"></span>
+                </button>
+                <nav id="nav-menu" class="hidden absolute py-4 border border-gray-100 rounded max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:border-0 lg:rounded-none">
+                    <ul class="block lg:flex">
+                        <li class="group">
+                            <a href="#home" class="text-base text-dark py-1.5 mx-8 flex hover:text-primary">Beranda</a>
+                        </li>
+                        <li class="group">
+                            <a href="#about" class="text-base text-dark py-1.5 mx-8 flex hover:text-primary">About Me</a>
+                        </li>
+                        <li class="group">
+                            <a href="#portfolio" class="text-base text-dark py-1.5 mx-8 flex hover:text-primary">Portfolio</a>
+                        </li>
+                        <li class="group">
+                            <a href="#skills" class="text-base text-dark py-1.5 mx-8 flex hover:text-primary">Skills</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<section id="home" class="pt-12 md:pt-5">
+    <div class="container">
+        <div class="flex flex-wrap">
+            <div class="w-full self-center px-4 lg:w-1/2">
+                <h1 class="text-base text-black md:text-xl">Assalamualaikum Nama Saya, 
+                    <span class="block font-bold text-dark text-2xl mt-1 lg:text-4xl max-w-md">Zacky Keisya Akbar</span>
+                </h1>
+                <h2 class="font-medium mb-10 lg:text-2xl">Front End Developer</h2>
+                <a href="img/cv-zackykeisyaakbar.pdf" 
+                   class="text-base font-semibold text-white bg-dark py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-500 ease-in-out" 
+                   target="_blank" 
+                   download="cv">
+                   Download CV
+                </a>
+            </div>
+            <div class="w-full self-end px-4 lg:w-1/2">
+                <div class="relative mt-10 lg:mt-0 lg:right-0">
+                    <img src="img/10114-removebg-preview.png" alt="Z" class="max-w-full mx-auto">
+                    <span class="absolute -bottom-6 -z-10 left-1/2 -translate-x-1/2 md:scale-125"></span>
                 </div>
             </div>
         </div>
-    </header>
-    
-    <section id="home" class="pt-36" >
-        <div class="container">
-            <div class="flex flex-wrap">
-                <div class="w-full self-center px-4 lg:w-1/2">
-                    <h1 class="text-base text-black md:text-xl">Assalamualaikum Nama Saya, <span class="block font-bold text-dark text-2xl mt-1 lg:text-4xl max-w-md">Zacky Keisya Akbar</span></h1>
-                    <h2 class="font-medium mb-10 lg:text-2xl">Front End Developer</h2>
-                    <a href="img/cv - Zacky Keisya Akbar.pdf" 
-                       class="text-base font-semibold text-white bg-dark py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-500 ease-in-out" 
-                       download="cv">
-                       Download CV
-                    </a>
-                </div>
-                <div class="w-full self-end px-4 lg:w-1/2">
-                    <div class="relative mt-10 lg:mt-0 lg:right-0">
-                        <img src="img/10114-removebg-preview.png" alt="Z" class="max-w-full mx-auto">
-                        <span class="absolute -bottom-6 -z-10 left-1/2 -translate-x-1/2 md:scale-125"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
+    </div>
+</section>
     <section id="about" class="pt-36">
         <div class="container">
             <div class="flex flex-wrap">
@@ -103,61 +104,126 @@
     </section>
 
     <section id="portfolio" class="pt-36 pb-16 bg-zinc-200">
-        <div class="container">
-            <div class="w-full px-4">
-                <div class="max-w-xl mx-auto text-center">
-                    <h4 class="font-semibold font-lg text-black mb-2">Portfolio</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">My Project</h2>
-                    <p class="text-md font-medium text-secondary md:text-lg">Berikut ini adalah karya-karya website yang sudah saya buat</p>
-                    <br>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-                        <!-- Project Cards -->
-                        <div class="project-card bg-white p-6 rounded-xl shadow-lg border border-gray-200" onclick="openProjectModal('ecommerce')">
-                            <div class="project-emoji text-5xl mb-4">🛒</div>
-                            <h3 class="font-bold text-lg project-title mb-2">E-Commerce Website</h3>
-                            <p class="text-sm text-gray-600">Platform jual beli online dengan fitur lengkap</p>
-                        </div>
-                        
-                        <div class="project-card bg-white p-6 rounded-xl shadow-lg border border-gray-200" onclick="openProjectModal('student')">
-                            <div class="project-emoji text-5xl mb-4">🎓</div>
-                            <h3 class="font-bold text-lg project-title mb-2">Student Data Management</h3>
-                            <p class="text-sm text-gray-600">Sistem manajemen data siswa sekolah</p>
-                        </div>
-                        
-                        <div class="project-card bg-white p-6 rounded-xl shadow-lg border border-gray-200" onclick="openProjectModal('pos')">
-                            <div class="project-emoji text-5xl mb-4">🌤️</div>
-                            <h3 class="font-bold text-lg project-title mb-2">Weather Detector App</h3>
-                            <p class="text-sm text-gray-600">Sistem deteksi cuaca</p>
-                        </div>
-                        
-                        <div class="project-card bg-white p-6 rounded-xl shadow-lg border border-gray-200" onclick="openProjectModal('ticket')">
-                            <div class="project-emoji text-5xl mb-4">📚</div>
-                            <h3 class="font-bold text-lg project-title mb-2">Library Online System</h3>
-                            <p class="text-sm text-gray-600">Aplikasi Admin/Staff Perpustakaan</p>
-                        </div>
-                        
-                        <div class="project-card bg-white p-6 rounded-xl shadow-lg border border-gray-200" onclick="openProjectModal('pharmacy')">
-                            <div class="project-emoji text-5xl mb-4">💊</div>
-                            <h3 class="font-bold text-lg project-title mb-2">Pharmacy System</h3>
-                            <p class="text-sm text-gray-600">Sistem manajemen apotek dan obat-obatan</p>
-                        </div>
-                        
-                        <div class="project-card bg-white p-6 rounded-xl shadow-lg border border-gray-200" onclick="openProjectModal('complaint')">
-                            <div class="project-emoji text-5xl mb-4">📢</div>
-                            <h3 class="font-bold text-lg project-title mb-2">Public Complaint System</h3>
-                            <p class="text-sm text-gray-600">Platform pengaduan masyarakat</p>
-                        </div>
-                        
-                        <div class="project-card bg-white p-6 rounded-xl shadow-lg border border-gray-200 md:col-span-2 lg:col-span-3" onclick="openProjectModal('warehouse')">
-                            <div class="project-emoji text-5xl mb-4">📦</div>
-                            <h3 class="font-bold text-lg project-title mb-2">Warehouse Management System</h3>
-                            <p class="text-sm text-gray-600">Sistem manajemen gudang dan inventori</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <div class="container px-4">
+    <!-- Title -->
+    <div class="text-center max-w-xl mx-auto mb-12">
+      <h4 class="text-black font-semibold mb-2">Portfolio</h4>
+      <h2 class="text-dark font-bold text-3xl sm:text-4xl lg:text-5xl mb-4">My Work</h2>
+      <p class="text-secondary text-md md:text-lg font-medium">Berikut adalah daftar project & sertifikat saya selama ini.</p>
+    </div>
+
+    <!-- Tabs -->
+    <div class="flex justify-center mb-10">
+      <button onclick="showTab('projects')" class="tab-btn px-6 py-2 bg-dark text-white font-semibold rounded-l-full hover:opacity-80">Project</button>
+      <button onclick="showTab('certificates')" class="tab-btn px-6 py-2 bg-white text-dark font-semibold rounded-r-full border hover:bg-gray-100">Sertifikat</button>
+    </div>
+
+    <!-- Projects -->
+     <div id="projects" class="tab-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+  <div onclick="openProjectModal('ecommerce')" class="project-card bg-white p-6 rounded-xl shadow-lg border cursor-pointer">
+    <div class="text-5xl mb-4">🛒</div>
+    <h3 class="font-bold text-lg mb-2">E-Commerce Website</h3>
+    <p class="text-sm text-gray-600">Platform jual beli online dengan fitur lengkap</p>
+    <div class="flex flex-wrap gap-2 mt-3">
+      <img src="img/html5.png" alt="HTML" title="HTML" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/css3.svg" alt="CSS" title="CSS" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+    </div>
+  </div>
+  <div onclick="openProjectModal('student')" class="project-card bg-white p-6 rounded-xl shadow-lg border cursor-pointer">
+    <div class="text-5xl mb-4">🎓</div>
+    <h3 class="font-bold text-lg mb-2">Student Data Management</h3>
+    <p class="text-sm text-gray-600">Sistem manajemen data siswa sekolah</p>
+    <div class="flex flex-wrap gap-2 mt-3">
+      <img src="img/css3.svg" alt="CSS" title="CSS" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/PHP-removebg-preview.png" alt="PHP" title="PHP" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/mysql.png" alt="MySQL" title="MySQL" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+    </div>
+  </div>
+  <div onclick="openProjectModal('pos')" class="project-card bg-white p-6 rounded-xl shadow-lg border cursor-pointer">
+    <div class="text-5xl mb-4">🌤️</div>
+    <h3 class="font-bold text-lg mb-2">Weather Detector App</h3>
+    <p class="text-sm text-gray-600">Sistem deteksi cuaca</p>
+    <div class="flex flex-wrap gap-2 mt-3">
+      <img src="img/javascript.png" alt="JavaScript" title="JavaScript" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/react.png" alt="React" title="React" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/bootstrap.png" alt="Bootstrap" title="Bootstrap" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+    </div>
+  </div>
+  <div onclick="openProjectModal('perpus')" class="project-card bg-white p-6 rounded-xl shadow-lg border cursor-pointer">
+    <div class="text-5xl mb-4">📚</div>
+    <h3 class="font-bold text-lg mb-2">Library Online System</h3>
+    <p class="text-sm text-gray-600">Aplikasi Admin/Staff Perpustakaan</p>
+    <div class="flex flex-wrap gap-2 mt-3">
+      <img src="img/javascript.png" alt="JavaScript" title="JavaScript" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/react.png" alt="React" title="React" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/bootstrap.png" alt="Bootstrap" title="Bootstrap" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+    </div>
+  </div>
+  <div onclick="openProjectModal('pharmacy')" class="project-card bg-white p-6 rounded-xl shadow-lg border cursor-pointer">
+    <div class="text-5xl mb-4">💊</div>
+    <h3 class="font-bold text-lg mb-2">Pharmacy System</h3>
+    <p class="text-sm text-gray-600">Sistem manajemen apotek dan obat-obatan</p>
+    <div class="flex flex-wrap gap-2 mt-3">
+      <img src="img/javascript.png" alt="JavaScript" title="JavaScript" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/bootstrap.png" alt="Bootstrap" title="Bootstrap" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/Laravel_Logo_PNG_Vector__SVG__Free_Download-removebg-preview.png" alt="Laravel" title="Laravel" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/PHP-removebg-preview.png" alt="PHP" title="PHP" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/mysql.png" alt="MySQL" title="MySQL" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+    </div>
+  </div>
+  <div onclick="openProjectModal('complaint')" class="project-card bg-white p-6 rounded-xl shadow-lg border cursor-pointer">
+    <div class="text-5xl mb-4">📢</div>
+    <h3 class="font-bold text-lg mb-2">Public Complaint System</h3>
+    <p class="text-sm text-gray-600">Platform pengaduan masyarakat</p>
+    <div class="flex flex-wrap gap-2 mt-3">
+      <img src="img/javascript.png" alt="JavaScript" title="JavaScript" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/bootstrap.png" alt="Bootstrap" title="Bootstrap" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/PHP-removebg-preview.png" alt="PHP" title="PHP" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/Laravel_Logo_PNG_Vector__SVG__Free_Download-removebg-preview.png" alt="Laravel" title="Laravel" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/mysql.png" alt="MySQL" title="MySQL" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+    </div>
+  </div>
+  <div onclick="openProjectModal('ticket')" class="project-card bg-white p-6 rounded-xl shadow-lg border cursor-pointer md:col-span-2 lg:col-span-3">
+    <div class="text-5xl mb-4">🎫</div>
+    <h3 class="font-bold text-lg mb-2">Ticketing App</h3>
+    <p class="text-sm text-gray-600">Aplikasi manajemen tiket online</p>
+    <div class="flex flex-wrap gap-2 mt-3">
+      <img src="img/flutter.png" alt="Flutter" title="Flutter" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+      <img src="img/firebase.png" alt="Firebase" title="Firebase" class="w-6 h-6 grayscale hover:grayscale-0 transition" />
+    </div>
+  </div>
+</div>
+    </div>
+
+    <!-- Certificates -->
+    <div id="certificates" class="tab-content hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div onclick="openModal('Front-End Web Development', 'Sertifikat dari Dicoding Academy')" class="project-card bg-white p-6 rounded-xl shadow-lg border cursor-pointer">
+        <div class="text-5xl mb-4">📜</div>
+        <h3 class="font-bold text-lg mb-2">Front-End Web Development</h3>
+        <p class="text-sm text-gray-600">Dicoding Academy</p>
+      </div>
+      <div onclick="openModal('UX Design Fundamentals', 'Sertifikat dari Google Coursera')" class="project-card bg-white p-6 rounded-xl shadow-lg border cursor-pointer">
+        <div class="text-5xl mb-4">🧠</div>
+        <h3 class="font-bold text-lg mb-2">UX Design Fundamentals</h3>
+        <p class="text-sm text-gray-600">Google x Coursera</p>
+      </div>
+      <div onclick="openModal('React Beginner to Advanced', 'Sertifikat dari BuildWithAngga')" class="project-card bg-white p-6 rounded-xl shadow-lg border cursor-pointer">
+        <div class="text-5xl mb-4">💻</div>
+        <h3 class="font-bold text-lg mb-2">React Beginner to Advanced</h3>
+        <p class="text-sm text-gray-600">BuildWithAngga</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="fixed inset-0 bg-black bg-opacity-60 hidden items-center justify-center z-50">
+    <div class="bg-white p-6 rounded-lg shadow-lg max-w-md w-full relative">
+      <button onclick="closeModal()" class="absolute top-2 right-2 text-gray-600 hover:text-red-500 text-xl">&times;</button>
+      <h3 id="modal-title" class="text-xl font-bold mb-2"></h3>
+      <p id="modal-content" class="text-gray-700"></p>
+    </div>
+  </div>
+</section>
 
     <!-- Project Modal -->
     <div id="projectModal" class="modal-overlay">
@@ -213,15 +279,47 @@
             </div>
             <div class="w-full px-4">
                 <div class="flex flex-wrap items-center justify-center">
-                    <img src="./img/html5.png" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="html5">
-                    <img src="./img/css3.svg" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="html5">
-                    <img src="./img/javascript.png" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="html5">
-                    <img src="./img/bootstrap.png" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="html5">
-                    <img src="./img/PHP-removebg-preview.png" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="html5">
-                    <img src="./img/Laravel_Logo_PNG_Vector__SVG__Free_Download-removebg-preview.png" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="html5">
-                    <img src="./img/lumen.png" class="max-w-[180px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="html5">
-                    <img src="./img/react.png" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="html5">
-                </div>
+    <div class="flex flex-col items-center mx-4 my-2">
+        <img src="./img/html5.png" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="HTML5">
+        <span class="mt-2 text-sm font-medium text-slate-700">HTML5</span>
+    </div>
+    <div class="flex flex-col items-center mx-4 my-2">
+        <img src="./img/css3.svg" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="CSS3">
+        <span class="mt-2 text-sm font-medium text-slate-700">CSS3</span>
+    </div>
+    <div class="flex flex-col items-center mx-4 my-2">
+        <img src="./img/javascript.png" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="JavaScript">
+        <span class="mt-2 text-sm font-medium text-slate-700">JavaScript</span>
+    </div>
+    <div class="flex flex-col items-center mx-4 my-2">
+        <img src="./img/bootstrap.png" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="Bootstrap">
+        <span class="mt-2 text-sm font-medium text-slate-700">Bootstrap</span>
+    </div>
+    <div class="flex flex-col items-center mx-4 my-2">
+        <img src="./img/PHP-removebg-preview.png" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="PHP">
+        <span class="mt-2 text-sm font-medium text-slate-700">PHP</span>
+    </div>
+    <div class="flex flex-col items-center mx-4 my-2">
+        <img src="./img/Laravel_Logo_PNG_Vector__SVG__Free_Download-removebg-preview.png" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="Laravel">
+        <span class="mt-2 text-sm font-medium text-slate-700">Laravel</span>
+    </div>
+    <div class="flex flex-col items-center mx-4 my-2">
+        <img src="./img/lumen.png" class="max-w-[180px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="Lumen">
+        <span class="mt-2 text-sm font-medium text-slate-700">Lumen</span>
+    </div>
+    <div class="flex flex-col items-center mx-4 my-2">
+        <img src="./img/react.png" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="React">
+        <span class="mt-2 text-sm font-medium text-slate-700">React</span>
+    </div>
+    <div class="flex flex-col items-center mx-4 my-2">
+        <img src="./img/flutter.png" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="Flutter">
+        <span class="mt-2 text-sm font-medium text-slate-700">Flutter</span>
+    </div>
+    <div class="flex flex-col items-center mx-4 my-2">
+        <img src="./img/firebase.png" class="max-w-[120px] grayscale px-4 py-4 opacity-80 duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8" alt="Firebase">
+        <span class="mt-2 text-sm font-medium text-slate-700">Firebase</span>
+    </div>
+</div>
             </div>
         </div>
     </section>
@@ -316,12 +414,12 @@
             
             window.onscroll = function() {
                 const header = document.querySelector('header');
-                const fixedNav = header.offsetTop;
-            
-                if(window.pageYOffset > fixedNav) {
-                    header.classList.add('navbar-fixed');
+                if(window.pageYOffset > 0) {
+                    header.classList.add('fixed', 'top-0', 'left-0', 'w-full', 'shadow-lg', 'bg-white');
+                    header.classList.remove('bg-transparent');
                 } else {
-                    header.classList.remove('navbar-fixed');
+                    header.classList.remove('fixed', 'top-0', 'left-0', 'w-full', 'shadow-lg', 'bg-white');
+                    header.classList.add('bg-transparent');
                 }
             }</script>
     <!-- footer end -->
@@ -364,7 +462,7 @@ const projects = {
     ecommerce: {
         title: "E-Commerce Website",
         subtitle: "Platform jual beli online dengan fitur lengkap",
-        description: "Website e-commerce dengan fitur katalog produk, keranjang belanja, pembayaran, dan dashboard admin.",
+        description: "Website e-commerce dengan fitur katalog produk, keranjang belanja, pembayaran, dan dashboard admin. (dibuat saat kelas 10)",
         images: [
             "projekImg/webshp/webshp1.png",
             "projekImg/webshp/webshp2.png",
@@ -387,7 +485,7 @@ const projects = {
     student: {
         title: "Student Data Management",
         subtitle: "Sistem manajemen data siswa sekolah",
-        description: "Aplikasi untuk mengelola data siswa, absensi, nilai, dan laporan.",
+        description: "Aplikasi untuk mengelola data siswa, absensi, nilai, dan laporan. (dibuat saat kelas 10)",
         images: [
             "projekImg/datsis/datsis1.jpg",
             "projekImg/datsis/datsis2.jpg",
@@ -403,10 +501,10 @@ const projects = {
         documentation: `<p>Gunakan fitur filter untuk mencari siswa berdasarkan kelas.</p>`
     },
    // ...existing code...
-pos: {
+    pos: {
     title: "Weather Detector App",
     subtitle: "Aplikasi ReactJS pendeteksi cuaca",
-    description: "Aplikasi ReactJS untuk mendeteksi cuaca suatu kota menggunakan public API dari OpenWeatherMap.",
+    description: "Aplikasi ReactJS untuk mendeteksi cuaca suatu kota menggunakan public API dari OpenWeatherMap. (dibuat saat kelas 11)",
     images: [
         "projekImg/ksr/ksr1.png"
     ],
@@ -433,10 +531,10 @@ pos: {
     `
 },
 // ...existing code...
-    ticket: {
+    perpus: {
         title: "Perpustakaan",
         subtitle: "Aplikasi perpustakaan digital",
-        description: "Aplikasi perpustakaan digital yang dibuat menggunakan React dan mengonsumsi data dari API eksternal untuk daftar buku, detail, dan peminjaman.",
+        description: "Aplikasi perpustakaan digital yang dibuat menggunakan React dan mengonsumsi data dari API eksternal untuk daftar buku, detail, dan peminjaman. (dibuat saat kelas 11)",
         images: [
             "projekImg/boking/boking1.png",
             "projekImg/boking/boking2.png",
@@ -471,51 +569,52 @@ pos: {
     pharmacy: {
         title: "Pharmacy System",
         subtitle: "Sistem manajemen apotek dan obat-obatan",
-        description: "Aplikasi untuk mengelola stok obat, resep, dan transaksi di apotek.",
-        images: [
-            "projekImg/apt/apt1.jpg",
-            "projekImg/apt/apt2.jpg"
-        ],
+        description: "Aplikasi untuk mengelola stok obat, resep, dan transaksi di apotek. (dibuat saat kelas 10)",
+        images: [],
         tech: ["JavaScript", "Bootstrap",  "Laravel","PHP", "MySQL"],
         features: [
             "Manajemen stok obat",
             "Transaksi penjualan",
             "Cetak resep"
         ],
-        demo: "#"
+        demo: "#",
+        documentation: `<a href="https://github.com/zackykeisya/Apotek-4.git" target="_blank" class="text-blue-500 underline">Lihat Source Code di GitHub</a>`,
     },
     complaint: {
-        title: "Public Complaint System",
-        subtitle: "Platform pengaduan masyarakat",
-        description: "Aplikasi untuk menerima dan menindaklanjuti pengaduan masyarakat.",
-        images: [
-            "projekImg/pengmas/pengmas1.jpg",
-            "projekImg/pengmas/pengmas2.jpg"
-        ],
-        tech: ["JavaScript", "Bootstrap", "PHP", "Laravel", "MySQL"],
-        features: [
-            "Form pengaduan online",
-            "Tracking status pengaduan",
-            "Notifikasi email"
-        ],
-        demo: "#"
+    title: "Public Complaint System",
+    subtitle: "Platform pengaduan masyarakat",
+    description: "Aplikasi untuk menerima dan menindaklanjuti pengaduan masyarakat. (dibuat saat kelas 11)",
+    images: [], // Tidak ada gambar
+    tech: ["JavaScript", "Bootstrap", "PHP", "Laravel", "MySQL"],
+    features: [
+        "Form pengaduan online",
+        "Tracking status pengaduan",
+        "Notifikasi email"
+    ],
+    demo: [], // Link ke GitHu
+    documentation: `<a href="https://github.com/zackykeisya/PengaduanMasyarakat.git" target="_blank" class="text-blue-500 underline">Lihat Source Code di GitHub</a>`,
+
     },
-    warehouse: {
-        title: "Warehouse Management System API",
-        subtitle: "API untuk mengelola stok barang dan inventori",
-        description: "API dibuat menggunakan Laravel Lumen untuk mengelola stok barang, keluar masuk barang, dan laporan inventori.",
-        images: [
-            "projekImg/gudinv/gudinv1.jpg",
-            "projekImg/gudinv/gudinv2.jpg"
-        ],
-        tech: ["PHP", "Lumen"],
-        features: [
-            "Manajemen stok barang",
-            "Laporan inventori",
-            "Barcode scanning"
-        ],
-        demo: "#"
-    }
+    // ...existing code...
+ticket: {
+    title: "Ticketing App",
+    subtitle: "Aplikasi manajemen tiket online",
+    description: "Aplikasi mobile untuk pembelian dan manajemen tiket event, dibangun menggunakan Flutter dan Firebase. (dibuat saat kelas 11)",
+    images: [
+        // Contoh: "projekImg/ticketing/ticketing1.png", "projekImg/ticketing/ticketing2.png"
+    ],
+    tech: ["Flutter", "Firebase"],
+    features: [
+        "Pendaftaran dan login pengguna",
+        "Pencarian dan pembelian tiket event",
+        "QR Code untuk validasi tiket",
+        "Notifikasi pembelian",
+        "Integrasi pembayaran digital"
+    ],
+    demo: "#",
+    documentation: `<a href="https://github.com/zackykeisya/ticketing-app" target="_blank" class="text-blue-500 underline">Lihat Source Code di GitHub</a>`
+},
+// ...existing code...
 };
 
 // Mapping nama tech ke gambar logo di folder img/
@@ -529,8 +628,38 @@ const techIcons = {
     "MySQL": "img/mysql.png", // pastikan ada file ini
     "Bootstrap": "img/bootstrap.png", // pastikan ada file ini
     "React": "img/react.png", // pastikan ada file ini
-    "Lumen": "img/lumen.png"
+    "Lumen": "img/lumen.png",
+    "Flutter": "img/flutter.png", // pastikan ada file ini
+    "Firebase": "img/firebase.png", // pastikan ada file ini
 };
+function showTab(tab) {
+    document.getElementById('projects').classList.add('hidden');
+    document.getElementById('certificates').classList.add('hidden');
+    document.getElementById(tab).classList.remove('hidden');
+
+    // Update tab styles (optional)
+    const tabs = document.querySelectorAll('.tab-btn');
+    tabs.forEach(btn => btn.classList.remove('bg-dark', 'text-white'));
+    if (tab === 'projects') {
+      tabs[0].classList.add('bg-dark', 'text-white');
+      tabs[1].classList.remove('bg-dark', 'text-white');
+    } else {
+      tabs[1].classList.add('bg-dark', 'text-white');
+      tabs[0].classList.remove('bg-dark', 'text-white');
+    }
+  }
+
+  function openModal(title, content) {
+    document.getElementById('modal-title').innerText = title;
+    document.getElementById('modal-content').innerText = content;
+    document.getElementById('modal').classList.remove('hidden');
+    document.getElementById('modal').classList.add('flex');
+  }
+
+  function closeModal() {
+    document.getElementById('modal').classList.add('hidden');
+    document.getElementById('modal').classList.remove('flex');
+  }
 
 // Modal logic
 function openProjectModal(key) {
@@ -552,6 +681,9 @@ function openProjectModal(key) {
             img.src = src;
             img.className = "project-image";
             img.alt = data.title;
+            img.onclick = function() {
+                openFullImageModal(src);
+            };
             gallery.appendChild(img);
         });
     }
@@ -562,6 +694,12 @@ function openProjectModal(key) {
     if (data.tech && data.tech.length) {
         data.tech.forEach(tech => {
             const iconSrc = techIcons[tech];
+            const wrapper = document.createElement('div');
+            wrapper.style.display = "inline-flex";
+            wrapper.style.flexDirection = "column";
+            wrapper.style.alignItems = "center";
+            wrapper.style.marginRight = "16px";
+            wrapper.style.marginBottom = "8px";
             if (iconSrc) {
                 const img = document.createElement('img');
                 img.src = iconSrc;
@@ -569,16 +707,22 @@ function openProjectModal(key) {
                 img.title = tech;
                 img.style.height = "32px";
                 img.style.width = "32px";
-                img.style.marginRight = "8px";
-                img.style.display = "inline-block";
-                img.style.verticalAlign = "middle";
-                techStack.appendChild(img);
+                img.style.display = "block";
+                wrapper.appendChild(img);
+
+                const label = document.createElement('span');
+                label.innerText = tech;
+                label.style.fontSize = "12px";
+                label.style.color = "#334155";
+                label.style.marginTop = "4px";
+                wrapper.appendChild(label);
             } else {
                 const span = document.createElement('span');
                 span.className = "tech-tag";
                 span.innerText = tech;
-                techStack.appendChild(span);
+                wrapper.appendChild(span);
             }
+            techStack.appendChild(wrapper);
         });
     }
 
@@ -595,8 +739,22 @@ function openProjectModal(key) {
 
     // Demo link
     const demoLink = document.getElementById('demoLink');
-    demoLink.href = data.demo;
-    demoLink.innerText = "Lihat Demo";
+    if (data.demo && typeof data.demo === "string" && data.demo !== "#" && data.demo.trim() !== "") {
+        demoLink.href = data.demo;
+        demoLink.innerText = "Lihat Demo";
+        demoLink.classList.remove("pointer-events-none", "text-gray-400");
+        demoLink.target = "_blank";
+        demoLink.onclick = null;
+    } else {
+        demoLink.href = "#";
+        demoLink.innerText = "Demo tidak tersedia";
+        demoLink.classList.add("pointer-events-none", "text-gray-400");
+        demoLink.target = "";
+        demoLink.onclick = function(e) {
+        e.preventDefault();
+        alert("Demo tidak tersedia untuk project ini.");
+    };
+    }
 
     // Documentation (optional)
     let docContainer = document.getElementById('projectDocumentation');
@@ -628,5 +786,30 @@ document.getElementById('projectModal').addEventListener('mousedown', function(e
     if (e.target === this) {
         closeProjectModal();
     }
+});
+</script>
+<!-- Full Image Modal -->
+<div id="fullImageModal" class="image-preview-modal">
+    <button class="image-preview-close" onclick="closeFullImageModal()">&times;</button>
+    <img id="fullImagePreview" src="" alt="Full Preview">
+</div>
+<script>
+function openFullImageModal(src) {
+    const modal = document.getElementById('fullImageModal');
+    const img = document.getElementById('fullImagePreview');
+    img.src = src;
+    modal.classList.add('active');
+}
+
+function closeFullImageModal() {
+    const modal = document.getElementById('fullImageModal');
+    const img = document.getElementById('fullImagePreview');
+    img.src = '';
+    modal.classList.remove('active');
+}
+
+// Tutup modal jika klik di luar gambar
+document.getElementById('fullImageModal').addEventListener('mousedown', function(e) {
+    if (e.target === this) closeFullImageModal();
 });
 </script>
